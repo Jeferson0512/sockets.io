@@ -1,0 +1,39 @@
+extends home
+
+block content
+    .row
+        .col-md-4
+            h3 Ejemplo de crud con Sockets IO
+            form#formulario
+                .form-group
+                    label(for="_id") ID
+                    input#_id.form-control(type="text" placeholder="ID de Usuario")
+                .form-group
+                    label(for="first_name") Nombres
+                    input#first_name.form-control(type="text" placeholder="Su Nombre")
+                .form-group
+                    label(for="last_name") Apellidos
+                    input#last_name.form-control(type="text" placeholder="Sus Apellidos")
+                .form-group
+                    label(for="timezone") Región
+                    input#timezone.form-control(type="text" placeholder="-5" value="-5")
+                .form-group
+                    label(for="locale") Idioma
+                    input#locale.form-control(type="text" placeholder="Idioma de referencia")
+                .form-group
+                    label(for="profile_pic") Foto
+                    input#profile_pic.form-control(type="text" placeholder="Url de Foto")
+                button.btn.btn-primary(type="submit") Guardar
+        .col-md-8
+            table.table.table-striped.table-bordered.table-hover
+                thead
+                    tr  
+                        th ID
+                        th Nombre
+                        th Apellidos
+                        th Zona Horaria
+                        th Idioma
+                        th Foto
+                tbody
+
+            

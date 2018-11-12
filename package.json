@@ -1,0 +1,24 @@
+{
+  "name": "semana12",
+  "version": "1.0.0",
+  "description": "\"test de la smena 12 del profesor\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "correr": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.4",
+    "font-awesome": "^4.7.0",
+    "jade": "^1.11.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.3.11",
+    "nodemon": "^1.18.6",
+    "popper.js": "^1.14.5",
+    "socket.io": "^2.1.1"
+  }
+}
